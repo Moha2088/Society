@@ -1,0 +1,7 @@
+
+*.cache
+*.vsidx
+*.bin
+*.v2
+*.targets
+*.editorconfig
