@@ -1,36 +1,17 @@
 using Societygame.Products;
 using SocietyGame.Interfaces;
-
-using SocietyGame.Entities;
+using SocietyGame.Enums;
 
 namespace Societygame.Factory;
 
 public class GovFactory
 {
-
     public static List<IInstituition> instituitions = [];
 
-    public SocietyLevel level;
+    public static SocietyLevel level;
 
-    private int _instCount;
 
-    public GovFactory()
-    {
-        switch (_instCount)
-        {
-            case 1:
-                level = SocietyLevel.Primitive;
-                break;
-
-            case 2:
-                level = SocietyLevel.Medium;
-                break;
-
-            case 3:
-                level = SocietyLevel.Advanced;
-                break;
-        }
-    }
+    public GovFactory() { }
 
     public static IInstituition build(int instituition)
     {

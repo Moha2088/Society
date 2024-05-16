@@ -11,6 +11,8 @@ public class UniversityInstituition : IInstituition
 {
     public decimal Cost { get; set; }
 
+
+
     public void Establish()
     {
         Console.WriteLine("Enter the name of the university:");

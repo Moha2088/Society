@@ -26,3 +26,4 @@ C:\Users\maxam\Desktop\Github\SocietyGame\Societygame\obj\Debug\net8.0\refint\So
 C:\Users\maxam\Desktop\Github\SocietyGame\Societygame\obj\Debug\net8.0\Societygame.pdb
 C:\Users\maxam\Desktop\Github\SocietyGame\Societygame\obj\Debug\net8.0\Societygame.genruntimeconfig.cache
 C:\Users\maxam\Desktop\Github\SocietyGame\Societygame\obj\Debug\net8.0\ref\Societygame.dll
+C:\Users\maxam\Desktop\Github\SocietyGame\Societygame\obj\Debug\net8.0\Societygame.sourcelink.json

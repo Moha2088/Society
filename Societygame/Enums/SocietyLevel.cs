@@ -1,3 +1,5 @@
+namespace SocietyGame.Enums;
+
 public enum SocietyLevel
 {
     Primitive,
