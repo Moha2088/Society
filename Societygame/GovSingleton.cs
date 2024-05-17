@@ -2,7 +2,7 @@ using Societygame.Factory;
 
 public sealed class GovSingleton
 {
-    private static GovSingleton _govInstance;
+    private static GovSingleton? _govInstance;
 
 
 

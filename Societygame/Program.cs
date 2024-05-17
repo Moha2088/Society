@@ -1,4 +1,5 @@
-﻿using Societygame.Factory;
+﻿using SocietyGame.Enums;
+using Societygame.Factory;
 using Societygame.Products;
 using SocietyGame.Interfaces;
 
@@ -11,19 +12,34 @@ class Program
         Console.WriteLine("Press Enter to create a government!");
         Console.ReadLine();
         bool running = true;
+        var level = new SocietyLevel();
         var government = GovSingleton.GetInstance();
-
+        var createdInst = new List<IInstituition>();
+        
         while (running)
-        {
-            var instituitions = new List<IInstituition>();
-
-            switch(instituitions.Count())
+        { 
+            void CheckLevel(int count)
             {
-                // Finish this!
-                    
+                switch (count)
+                {
+                    case 1:
+                        level = SocietyLevel.Primitive;
+                        Console.WriteLine($"Society level is now: {level.ToString()}!");
+                        break;
+
+                    case 2:
+                        level = SocietyLevel.Medium;
+                        Console.WriteLine($"Society level is now: {level.ToString()}!");
+                        break;
+
+                    case 3:
+                        level = SocietyLevel.Advanced;
+                        Console.WriteLine($"Society level is now: {level.ToString()}! You have now reached peak society!");
+                        break;
+                }    
             }
 
-        instPropmt:
+        instPrompt:
             try
             {
                 Console.WriteLine("Press 1 to build a hospital, 2 for a military, 3 for a university, or 4 to build a new government");
@@ -32,28 +48,29 @@ class Program
                 switch (count)
                 {
                     case 1:
-                        IInstituition hospitalInst = GovFactory.build(count);
-                        instituitions.Add(hospitalInst);
+                        IInstituition hospitalInst = GovFactory.Build(count);
+                        createdInst.Add(hospitalInst);
                         hospitalInst.Establish();
+                        CheckLevel(createdInst.Count);
                         hospitalInst.GetCost();
                         break;
 
 
                     case 2:
-                        IInstituition militaryInst = GovFactory.build(count);
-                        instituitions.Add(militaryInst);
+                        IInstituition militaryInst = GovFactory.Build(count);
+                        createdInst.Add(militaryInst);
                         militaryInst.Establish();
+                        CheckLevel(createdInst.Count);
                         militaryInst.GetCost();
                         break;
 
 
                     case 3:
-                        IInstituition universityInst = GovFactory.build(count);
-                        instituitions.Add(universityInst);
+                        IInstituition universityInst = GovFactory.Build(count);
+                        createdInst.Add(universityInst);
                         universityInst.Establish();
+                        CheckLevel(createdInst.Count);
                         universityInst.GetCost();
-
-
                         break;
 
                     case 4:
@@ -68,7 +85,7 @@ class Program
             catch (FormatException e)
             {
                 Console.WriteLine($"Wrong data type. Try again! {e.ToString()}");
-                goto instPropmt;
+                goto instPrompt;
             }
 
             catch (Exception e)

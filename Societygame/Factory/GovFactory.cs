@@ -13,7 +13,7 @@ public class GovFactory
 
     public GovFactory() { }
 
-    public static IInstituition build(int instituition)
+    public static IInstituition Build(int instituition)
     {
         switch (instituition)
         {
