@@ -17,7 +17,7 @@ public class HospitalInstituition : IInstituition
     public void Establish()
     {
         Console.WriteLine("Enter the name of the hospital:");
-        string name = Console.ReadLine();
+        string? name = Console.ReadLine();
 
         Console.WriteLine("Enter the cost of the hospital:");
         decimal cost = decimal.Parse(Console.ReadLine());

@@ -15,9 +15,9 @@ class Program
         var level = new SocietyLevel();
         var government = GovSingleton.GetInstance();
         var createdInst = new List<IInstituition>();
-        
+
         while (running)
-        { 
+        {
             void CheckLevel(int count)
             {
                 switch (count)
@@ -36,10 +36,9 @@ class Program
                         level = SocietyLevel.Advanced;
                         Console.WriteLine($"Society level is now: {level.ToString()}! You have now reached peak society!");
                         break;
-                }    
+                }
             }
 
-        instPrompt:
             try
             {
                 Console.WriteLine("Press 1 to build a hospital, 2 for a military, 3 for a university, or 4 to build a new government");
@@ -85,12 +84,11 @@ class Program
             catch (FormatException e)
             {
                 Console.WriteLine($"Wrong data type. Try again! {e.ToString()}");
-                goto instPrompt;
             }
 
             catch (Exception e)
             {
-                Console.WriteLine(e.ToString());
+                Console.WriteLine($"{e}\n\n");
             }
         }
     }

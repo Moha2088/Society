@@ -18,7 +18,7 @@ public sealed class GovSingleton
 
         else
         {
-            Console.WriteLine("Two governments can't coexist! Please use the existing government");
+            throw new SystemException("Singleton Duplicate Error! - Two governments can't co-exist! Please use the existing government.");
         }
 
         return _govInstance;
