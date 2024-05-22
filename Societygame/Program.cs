@@ -24,19 +24,25 @@ class Program
                 {
                     case 1:
                         level = SocietyLevel.Primitive;
-                        Console.WriteLine($"Society level is now: {level.ToString()}!");
+                        Console.WriteLine($"Society level is now: {level}!");
                         break;
 
                     case 2:
                         level = SocietyLevel.Medium;
-                        Console.WriteLine($"Society level is now: {level.ToString()}!");
+                        Console.WriteLine($"Society level is now: {level}!");
                         break;
 
                     case 3:
                         level = SocietyLevel.Advanced;
-                        Console.WriteLine($"Society level is now: {level.ToString()}! You have now reached peak society!");
+                        Console.WriteLine($"Society level is now: {level}! You have now reached peak society!");
                         break;
                 }
+            }
+
+            bool IsDuplicate(IInstituition instituition)
+            {
+                return createdInst.Any(createdInst =>
+                createdInst.GetType().ToString() == instituition.GetType().ToString());
             }
 
             try
@@ -83,7 +89,7 @@ class Program
 
             catch (FormatException e)
             {
-                Console.WriteLine($"Wrong data type. Try again! {e.ToString()}");
+                Console.WriteLine($"Wrong data type. Try again! {e}");
             }
 
             catch (Exception e)

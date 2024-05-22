@@ -1,3 +1,3 @@
 # Societygame
 
-Implementation of the Singleton and Factory patterns
+Implementation of the Singleton, Factory and Builder Design Patterns.

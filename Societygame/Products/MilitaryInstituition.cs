@@ -12,16 +12,18 @@ public class MilitaryInstituition : IInstituition
     private decimal Cost { get; set; }
 
 
-
     public void Establish()
     {
         Console.WriteLine("Enter the name of the military:");
-        string name = Console.ReadLine();
+        string? name = Console.ReadLine();
 
         Console.WriteLine("Enter the cost of the military:");
         decimal cost = decimal.Parse(Console.ReadLine());
 
-        var military = new University(name, cost);
+        Military military = new MilitaryBuilder()
+            .setName(name)
+            .setCost(cost)
+            .Build();
 
         Console.WriteLine($"{military.Name} has been built at the cost of: {military.Cost} kr.");
 
@@ -30,7 +32,6 @@ public class MilitaryInstituition : IInstituition
 
     public string GetCost()
     {
-        return Cost > 0 ? $"The military has cost the government {Cost} kr." 
-            : "A military has not been built yet!";
+        return $"The military has cost the government {Cost} kr.";
     }
 }
