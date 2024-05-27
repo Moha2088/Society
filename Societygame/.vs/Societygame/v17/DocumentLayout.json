@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\products\\universityinstituition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:products\\universityinstituition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\products\\militaryinstituition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:products\\militaryinstituition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\govsingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:govsingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\enums\\societylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:enums\\societylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\factory\\govfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:factory\\govfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\products\\hospitalinstituition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:products\\hospitalinstituition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\interface\\iinstituition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:interface\\iinstituition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\entities\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:entities\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\entities\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:entities\\university.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\entities\\military.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:entities\\military.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|c:\\users\\maxam\\desktop\\github\\societygame\\societygame\\enums\\societylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA16F46-F213-4A9A-81E0-2123C27B7E02}|Societygame.csproj|solutionrelative:enums\\societylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,79 +47,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SocietyLevel.cs",
-              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Enums\\SocietyLevel.cs",
-              "RelativeDocumentMoniker": "Enums\\SocietyLevel.cs",
-              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Enums\\SocietyLevel.cs",
-              "RelativeToolTip": "Enums\\SocietyLevel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T07:52:31.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IInstituition.cs",
-              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Interface\\IInstituition.cs",
-              "RelativeDocumentMoniker": "Interface\\IInstituition.cs",
-              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Interface\\IInstituition.cs",
-              "RelativeToolTip": "Interface\\IInstituition.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T07:51:57.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UniversityInstituition.cs",
-              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Products\\UniversityInstituition.cs",
-              "RelativeDocumentMoniker": "Products\\UniversityInstituition.cs",
-              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Products\\UniversityInstituition.cs",
-              "RelativeToolTip": "Products\\UniversityInstituition.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T07:41:15.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MilitaryInstituition.cs",
-              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Products\\MilitaryInstituition.cs",
-              "RelativeDocumentMoniker": "Products\\MilitaryInstituition.cs",
-              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Products\\MilitaryInstituition.cs",
-              "RelativeToolTip": "Products\\MilitaryInstituition.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAArwB4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T07:39:32.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Hospital.cs",
               "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Entities\\Hospital.cs",
               "RelativeDocumentMoniker": "Entities\\Hospital.cs",
               "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Entities\\Hospital.cs",
               "RelativeToolTip": "Entities\\Hospital.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T07:13:26.88Z",
+              "WhenOpened": "2024-05-27T08:06:41.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GovFactory.cs",
-              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Factory\\GovFactory.cs",
-              "RelativeDocumentMoniker": "Factory\\GovFactory.cs",
-              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Factory\\GovFactory.cs",
-              "RelativeToolTip": "Factory\\GovFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Title": "SocietyLevel.cs",
+              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Enums\\SocietyLevel.cs",
+              "RelativeDocumentMoniker": "Enums\\SocietyLevel.cs",
+              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Enums\\SocietyLevel.cs",
+              "RelativeToolTip": "Enums\\SocietyLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T09:13:50.419Z",
+              "WhenOpened": "2024-05-27T08:06:05.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GovSingleton.cs",
+              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\GovSingleton.cs",
+              "RelativeDocumentMoniker": "GovSingleton.cs",
+              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\GovSingleton.cs",
+              "RelativeToolTip": "GovSingleton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T08:02:39.357Z",
               "EditorCaption": ""
             },
             {
@@ -150,48 +91,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T07:56:15.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Application.cs",
+              "RelativeDocumentMoniker": "Application.cs",
+              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Application.cs",
+              "RelativeToolTip": "Application.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T11:37:28.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "University.cs",
-              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Entities\\University.cs",
-              "RelativeDocumentMoniker": "Entities\\University.cs",
-              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Entities\\University.cs",
-              "RelativeToolTip": "Entities\\University.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T07:32:43.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Military.cs",
-              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Entities\\Military.cs",
-              "RelativeDocumentMoniker": "Entities\\Military.cs",
-              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Entities\\Military.cs",
-              "RelativeToolTip": "Entities\\Military.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAmwCQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T07:30:20.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HospitalInstituition.cs",
-              "DocumentMoniker": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Products\\HospitalInstituition.cs",
-              "RelativeDocumentMoniker": "Products\\HospitalInstituition.cs",
-              "ToolTip": "C:\\Users\\maxam\\Desktop\\Github\\SocietyGame\\Societygame\\Products\\HospitalInstituition.cs",
-              "RelativeToolTip": "Products\\HospitalInstituition.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T09:12:03.492Z",
               "EditorCaption": ""
             }
           ]

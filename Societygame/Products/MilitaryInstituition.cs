@@ -1,10 +1,5 @@
 ﻿using SocietyGame.Entities;
 using SocietyGame.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Societygame.Products;
 public class MilitaryInstituition : IInstituition
@@ -25,13 +20,13 @@ public class MilitaryInstituition : IInstituition
             .setCost(cost)
             .Build();
 
-        Console.WriteLine($"{military.Name} has been built at the cost of: {military.Cost} kr.");
+        Console.WriteLine($"{military.Name} has been built.");
 
         Cost = military.Cost;
     }
 
-    public string GetCost()
+    public void GetCost()
     {
-        return $"The military has cost the government {Cost} kr.";
+        Console.WriteLine($"The military has cost the government {Cost} kr.");
     }
 }

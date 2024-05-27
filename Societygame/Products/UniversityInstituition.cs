@@ -1,15 +1,10 @@
 ﻿using SocietyGame.Entities;
 using SocietyGame.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Societygame.Products;
 public class UniversityInstituition : IInstituition
 {
-    public decimal Cost { get; set; }
+    private decimal Cost { get; set; }
 
 
     public void Establish()
@@ -25,11 +20,13 @@ public class UniversityInstituition : IInstituition
             .setCost(cost)
             .Build();
 
-        Console.WriteLine($"{university.Name} has been built at the cost of: {university.Cost} kr.");
+        Console.WriteLine($"{university.Name} has been built.");
+
+        Cost = university.Cost;
     }
 
-    public string GetCost()
+    public void GetCost()
     {
-        return $"The university has cost the government {Cost} kr.";
+        Console.WriteLine($"The university has cost the government {Cost} kr.");
     }
 }

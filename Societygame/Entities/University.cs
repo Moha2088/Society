@@ -20,8 +20,10 @@ public class UniversityBuilder
     private string name = null!;
     private decimal cost;
 
-    public UniversityBuilder setName(string name) {
-        this.name = name; return this; 
+    public UniversityBuilder setName(string name) 
+    {
+        this.name = name; 
+        return this; 
     }
 
     public UniversityBuilder setCost(decimal cost) 

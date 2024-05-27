@@ -4,7 +4,7 @@ using SocietyGame.Interfaces;
 namespace Societygame.Products;
 public class HospitalInstituition : IInstituition
 {
-    public decimal Cost { get; set; }
+    private decimal Cost { get; set; }
 
 
     public void Establish()
@@ -20,11 +20,13 @@ public class HospitalInstituition : IInstituition
             .setCost(cost)
             .Build();
 
-        Console.WriteLine($"{hospital.Name} has been built at the cost of: {hospital.Cost} kr.");
+        Console.WriteLine($"{hospital.Name} has been built.");
+
+        Cost = hospital.Cost;
     }
 
-    public string GetCost()
+    public void GetCost()
     {
-        return $"The hospital has cost the government {Cost} kr.";
+        Console.WriteLine($"The hospital has cost the government {Cost} kr.");
     }
 }

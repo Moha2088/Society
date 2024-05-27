@@ -1,6 +1,5 @@
 using Societygame.Products;
 using SocietyGame.Interfaces;
-using SocietyGame.Enums;
 
 namespace Societygame.Factory;
 
