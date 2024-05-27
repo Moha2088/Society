@@ -39,9 +39,13 @@ public class Application
                 }
             }
 
-            bool IsDuplicate(IInstituition inst) => createdInst.Any(
-                createdInst => createdInst.GetType().ToString() == inst.GetType().ToString()
-                );
+            void IsDuplicate(IInstituition inst)
+            {
+                if (createdInst.Any(createdInst => createdInst.GetType().ToString() == inst.GetType().ToString()))
+                {
+                    throw new Exception("This instituition already exists!");
+                }
+            }
 
             try
             {
@@ -52,12 +56,7 @@ public class Application
                 {
                     case 1:
                         IInstituition hospitalInst = GovFactory.Build(count);
-
-                        if(IsDuplicate(hospitalInst))
-                        {
-                            throw new Exception("This instituition already exists.");
-                        }
-
+                        IsDuplicate(hospitalInst);
                         createdInst.Add(hospitalInst);
                         hospitalInst.Establish();
                         CheckLevel(createdInst.Count);
@@ -67,6 +66,8 @@ public class Application
 
                     case 2:
                         IInstituition militaryInst = GovFactory.Build(count);
+                        IsDuplicate(militaryInst);
+
                         createdInst.Add(militaryInst);
                         militaryInst.Establish();
                         CheckLevel(createdInst.Count);
@@ -76,6 +77,7 @@ public class Application
 
                     case 3:
                         IInstituition universityInst = GovFactory.Build(count);
+                        IsDuplicate(universityInst);
                         createdInst.Add(universityInst);
                         universityInst.Establish();
                         CheckLevel(createdInst.Count);
