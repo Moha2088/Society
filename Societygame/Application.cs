@@ -14,10 +14,24 @@ public class Application
         bool running = true;
         var level = new SocietyLevel();
         var government = GovSingleton.GetInstance();
-        var createdInst = new List<IInstituition>();
+        var createdInstList = GovFactory.instituitionsCreated;
 
         while (running)
         {
+            GovFactory.MaxCountReached += MaxCountReachedAlert;
+            GovFactory.DuplicateDetected += DuplicateAlert;
+
+            void MaxCountReachedAlert()
+            {
+                Console.WriteLine("You have reached the maximum amount of instituitions!");
+                Environment.Exit(0);
+            }
+
+            void DuplicateAlert(IInstituition inst)
+            {
+                Console.WriteLine($"An instituition of type: {inst} already exists!");
+            }
+
             void CheckLevel(int count)
             {
                 switch (count)
@@ -39,14 +53,6 @@ public class Application
                 }
             }
 
-            void IsDuplicate(IInstituition inst)
-            {
-                if (createdInst.Any(createdInst => createdInst.GetType().ToString() == inst.GetType().ToString()))
-                {
-                    throw new Exception("This instituition already exists!");
-                }
-            }
-
             try
             {
                 Console.WriteLine("Press 1 to build a hospital, 2 for a military, 3 for a university, or 4 to build a new government");
@@ -56,31 +62,24 @@ public class Application
                 {
                     case 1:
                         IInstituition hospitalInst = GovFactory.Build(count);
-                        IsDuplicate(hospitalInst);
-                        createdInst.Add(hospitalInst);
                         hospitalInst.Establish();
-                        CheckLevel(createdInst.Count);
+                        CheckLevel(createdInstList.Count);
                         hospitalInst.GetCost();
                         break;
 
 
                     case 2:
                         IInstituition militaryInst = GovFactory.Build(count);
-                        IsDuplicate(militaryInst);
-
-                        createdInst.Add(militaryInst);
                         militaryInst.Establish();
-                        CheckLevel(createdInst.Count);
+                        CheckLevel(createdInstList.Count);
                         militaryInst.GetCost();
                         break;
 
 
                     case 3:
                         IInstituition universityInst = GovFactory.Build(count);
-                        IsDuplicate(universityInst);
-                        createdInst.Add(universityInst);
                         universityInst.Establish();
-                        CheckLevel(createdInst.Count);
+                        CheckLevel(createdInstList.Count);
                         universityInst.GetCost();
                         break;
 
